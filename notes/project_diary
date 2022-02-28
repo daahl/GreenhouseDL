@@ -11,3 +11,5 @@
 - Had some issues displaying the phpmyadmin page. Had to install extra libraries (libapache2-mod-php) for apache2 to solve it.
 - Note to self: make sure that you change 'your_password' in the instruction to the _actual_ password...
 - phpmyadmin now works using login 'admin' and the usual prefix password for that domain.
+
+- Next step: Set up the ESP32 to send some data to the database. Read up on ground humidity sensors.
