@@ -1,4 +1,4 @@
-# GreenhouseDL
+# Greenhouse Data Logger
 An ongoing IoT project where a data logger for a greenhouse is being developed.
 
 The basic concept is as follows:
