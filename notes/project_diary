@@ -1,0 +1,8 @@
+- Apache2 was installed on the raspberry pi. Accessible via 192.160.1.100:80. Seems to work without disturbing the PiHole server.
+- There are some issues with the PiHole webpage. The admin panel is accessible over 192.168.1.100/admin, but the welcome page on 192.168.1.100 is replaced
+    but the apache2 webpage.    
+- Webpage root is currently in /var/www/html
+- PHP was installed.
+- Created a folder in ./greenhouse that the index page for the data logger is in. The PiHole is now accessible again on 192.168.1.100, and the greenhouse index page on 
+    192.168.1.100/greenhouse.
+- 
