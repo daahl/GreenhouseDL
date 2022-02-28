@@ -1,3 +1,4 @@
+- LAMP server installation was done following this guide: https://randomnerdtutorials.com/raspberry-pi-apache-mysql-php-lamp-server/
 - Apache2 was installed on the raspberry pi. Accessible via 192.160.1.100:80. Seems to work without disturbing the PiHole server.
 - There are some issues with the PiHole webpage. The admin panel is accessible over 192.168.1.100/admin, but the welcome page on 192.168.1.100 is replaced
     but the apache2 webpage.    
@@ -5,4 +6,8 @@
 - PHP was installed.
 - Created a folder in ./greenhouse that the index page for the data logger is in. The PiHole is now accessible again on 192.168.1.100, and the greenhouse index page on 
     192.168.1.100/greenhouse.
-- 
+- Installed MySQL, MariaDB, and phpMyAdmin. Password for MariaDB is the standard prefix and the domain "MariaDB". Password for "phpmyadmin" uses the same prefix.
+- Apache2 had som issues when it listened on port 80. Probably caused by the PiHole. Changed Apache2 port to 8080 in /etc/apache2/ports.conf.
+- Had some issues displaying the phpmyadmin page. Had to install extra libraries (libapache2-mod-php) for apache2 to solve it.
+- Note to self: make sure that you change 'your_password' in the instruction to the _actual_ password...
+- phpmyadmin now works using login 'admin' and the usual prefix password for that domain.
