@@ -13,3 +13,15 @@
 - phpmyadmin now works using login 'admin' and the usual prefix password for that domain.
 
 - Next step: Set up the ESP32 to send some data to the database. Read up on ground humidity sensors.
+
+- ESP32 was set up following this guide: https://randomnerdtutorials.com/esp32-esp8266-raspberry-pi-lamp-server/
+- Created the database and table for sensor data. Right now it is identical to the one in the guide. A custom one will be made later.
+- Set up the PHP scripts.
+- 
+
+- TODO: figure out how hibernation and SD card works on the esp.
+- TODO: write code for real sensor readings and set up the correct database.
+- TODO: add the .php files to the repository. Right now they are only on the LAMP server.
+- TODO: read the passwords from a file on the LAMP server, such that they are not uploaded to github.
+- TODO: create the interactive webpage.
+- TODO: make it public??
