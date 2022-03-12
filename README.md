@@ -7,7 +7,7 @@ The basic concept is as follows:
 - Every reading is send to a LAMP server hostet on a local Raspberry Pi.
 - TODO: The data will be accessible from the LAMP server via an interactive website, which will show plots of the data.
 
-![Basic concept of the greenhouse data logger.](https://raw.githubusercontent.com/daahl/GreenhouseDL/main/images/basic_concept.png | width = 500)
+<img src=https://raw.githubusercontent.com/daahl/GreenhouseDL/main/images/basic_concept.png" width="100">
 
 # The finished product
 
@@ -16,3 +16,5 @@ The basic concept is as follows:
 ![Basic concept of the greenhouse data logger.](https://raw.githubusercontent.com/daahl/GreenhouseDL/main/images/box.png | width = 500)
 
 ![Basic concept of the greenhouse data logger.](https://raw.githubusercontent.com/daahl/GreenhouseDL/main/images/mounted.png | width = 500)
+
+"https://your-image-url.type" height="100">
