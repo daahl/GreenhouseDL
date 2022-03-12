@@ -17,11 +17,24 @@
 - ESP32 was set up following this guide: https://randomnerdtutorials.com/esp32-esp8266-raspberry-pi-lamp-server/
 - Created the database and table for sensor data. Right now it is identical to the one in the guide. A custom one will be made later.
 - Set up the PHP scripts.
-- 
 
-- TODO: figure out how hibernation and SD card works on the esp.
-- TODO: write code for real sensor readings and set up the correct database.
+- Set up password header file.
+- Set up Si7021 sensor for temp and humdidity readings.
+- Wrote pretty much all the remaining code that goes on the ESP32.
+- Noticed that there already is a timestamp on all the readings in the database. So I can remove the NTP server from the ESP.
+
+- Measured the deep sleep power consumption. Was about 0.4 mA.
+- Finalised the pod and mounted the whole thing in the greenhouse. Seems to work!
+- Projekt pretty much done! Data will probaby be visualized in Excel for now, as front end
+programming isn't a project that I'm looking forward too.
+
 - TODO: add the .php files to the repository. Right now they are only on the LAMP server.
-- TODO: read the passwords from a file on the LAMP server, such that they are not uploaded to github.
 - TODO: create the interactive webpage.
-- TODO: make it public??
+- TODO: make website public??
+
+- DONE: Meassure the deep sleep power consumption. Seems like wifi, bt, and adc might have to be manually turned off?
+- DONE: write code for real sensor readings and set up the correct database.
+- DONE: Tidy up the finished code.
+- DONE: figure out how hibernation and SD card works on the esp. https://randomnerdtutorials.com/esp32-data-logging-temperature-to-microsd-card/
+- DONE: read the passwords from a file on the LAMP server, such that they are not uploaded to github.
+- DONE: Change api key in the php script.
