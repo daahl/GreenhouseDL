@@ -11,10 +11,8 @@ The basic concept is as follows:
 
 # The finished product
 
-![Basic concept of the greenhouse data logger.](https://raw.githubusercontent.com/daahl/GreenhouseDL/main/images/setup.png | width = 500)
+<img src="https://raw.githubusercontent.com/daahl/GreenhouseDL/main/images/setup.png" width="500">
 
 ![Basic concept of the greenhouse data logger.](https://raw.githubusercontent.com/daahl/GreenhouseDL/main/images/box.png | width = 500)
 
 ![Basic concept of the greenhouse data logger.](https://raw.githubusercontent.com/daahl/GreenhouseDL/main/images/mounted.png | width = 500)
-
-"https://your-image-url.type" height="100">
