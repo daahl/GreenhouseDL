@@ -7,7 +7,7 @@ The basic concept is as follows:
 - Every reading is send to a LAMP server hostet on a local Raspberry Pi.
 - TODO: The data will be accessible from the LAMP server via an interactive website, which will show plots of the data.
 
-<img  src="https://raw.githubusercontent.com/daahl/GreenhouseDL/main/images/basic_concept.png" width="700")
+<img src="https://raw.githubusercontent.com/daahl/GreenhouseDL/main/images/basic_concept.png" width="700")
 
 # The finished product
 
